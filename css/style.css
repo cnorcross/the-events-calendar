@@ -1,0 +1,47 @@
+/*
+* Stylesheet use for events shortcode
+*/
+
+/* Loading Gif */
+.nw_events_loading {
+  height:100px;
+  margin:100px 0;
+  background-image:url('../images/loading.gif');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Events Feed */
+.nw_events_feed_class {
+  margin-bottom:25px;
+}
+.nw_events_btn_div_class {
+  width:100%;
+  display:inline-block;
+}
+/* Events Meta */
+.nw_events_meta {
+  font-size:.8em;
+  display:block;
+}
+/* Events Description */
+.nw_events_description {
+  display:block;
+}
+/* Single Event */
+.nw_event_single {
+  margin-bottom:25px;
+}
+/* Navigation Buttons */
+@media screen and (min-width:360px){
+  .nw_btn_right {
+    float:right;
+  }
+}
+@media screen and (max-width:359px){
+  .nw_btn_right, .nw_btn_left {
+    width:100%;
+    margin-bottom:10px;
+  }
+}
